@@ -15,6 +15,10 @@ This repository can be used as a reference guide/sample to enable publishing you
 - Basic understanding of software package registries (e.g. GitHub Packages, nuget)
 - Nice to have: experience with GitHub Actions or other automation servers such as Jenkins or TravisCI
 
+## Publishing a package using a nuget.config file
+
+When publishing, you need to use the same value for OWNER in your csproj file that you use in your nuget.config authentication file. Specify or increment the version number in your .csproj file, then use the dotnet pack command to create a .nuspec file for that version. 
+
 ## :books: Resources
 
 - [Introduction to YAML: Learn YAML in 5 minutes](https://www.codeproject.com/Articles/1214409/Learn-YAML-in-five-minutes)
