@@ -19,6 +19,9 @@ This repository can be used as a reference guide/sample to enable publishing you
 
 When publishing, you need to use the same value for OWNER in your csproj file that you use in your nuget.config authentication file. Specify or increment the version number in your .csproj file, then use the dotnet pack command to create a .nuspec file for that version. 
 
+## Installing a package
+Using packages from GitHub in your project is similar to using packages from nuget.org. Add your package dependencies to your .csproj file, specifying the package name and version. 
+
 ## :books: Resources
 
 - [Introduction to YAML: Learn YAML in 5 minutes](https://www.codeproject.com/Articles/1214409/Learn-YAML-in-five-minutes)
